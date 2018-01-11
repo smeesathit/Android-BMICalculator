@@ -8,7 +8,7 @@
     <string name="hightHint">เซนติเมตร</string>
     <string name="weightUnit">กิโลกรัม</string>
     <string name="hightUnit">เซนติเมตร</string>
-    <string name="bmiText">ดัชนีมวลกาย</string>
+    <string name="bmiLabel">ดัชนีมวลกาย =</string>
     <string name="underWeight">หนักน้อยไป</string>
     <string name="weightError">กรุณากรอกน้ำหนัก</string>
     <string name="hightError">กรุณากรอกส่วนสูง</string>

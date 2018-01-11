@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="10dp">
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
 
-    <TextView
-        android:id="@+id/weightTextView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="24dp"
-        android:text="@string/weightLable"
-        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/hightTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/weightTextView"
-        android:layout_marginTop="13dp"
-        android:text="@string/hightLabel"
-        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        <TextView
+            android:id="@+id/bmiLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="@string/bmiLabel"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
-    <TextView
-        android:id="@+id/bmiTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/hightTextView"
-        android:layout_marginTop="16dp"
-        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+        <TextView
+            android:id="@+id/bmiValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="TextView"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/bmiTextView"
+        android:layout_below="@+id/bmiLabel"
         android:layout_marginTop="11dp"
-        android:textAppearance="@android:style/TextAppearance.Material.Large" />
-</RelativeLayout>
+        android:layout_weight="1"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+</LinearLayout>
