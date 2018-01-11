@@ -27,6 +27,13 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         Toast.makeText(getBaseContext(), "You clicked Compute button!", Toast.LENGTH_SHORT).show();
+        if (weightEditText.getText().toString().equals("")) {
+            Toast.makeText(getBaseContext(), R.string.weightError, Toast.LENGTH_SHORT).show();
+        } else if (hightEditText.getText().toString().equals("")){
+            Toast.makeText(getBaseContext(), R.string.hightError, Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(getBaseContext(), "Go to next activity", Toast.LENGTH_SHORT).show();
+        }
         /*
         Intent intent = new Intent(getBaseContext(), ResultActivity.class);
 
@@ -47,6 +54,8 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         intent.putExtra("hight", hight);
         startActivity(intent);
 */
+
+
 //Button computeButton;
 //computeButton = findViewById(R.id.computeButton);
 /*

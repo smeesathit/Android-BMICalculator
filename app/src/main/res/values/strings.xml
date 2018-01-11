@@ -9,4 +9,6 @@
     <string name="hightUnit">cm(s).</string>
     <string name="bmiText">BMI</string>
     <string name="underWeight">Too thin</string>
+    <string name="weightError">Please enter weight.</string>
+    <string name="hightError">Please enter hight.</string>
 </resources>
