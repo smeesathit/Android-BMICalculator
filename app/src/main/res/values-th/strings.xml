@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">แอพคำนวณ BMI</string>
+    <string name="computeButton">คำนวณ</string>
+    <string name="weightLable">น้ำหนัก</string>
+    <string name="hightLabel">ส่วนสูง</string>
+    <string name="hightHint">เซนติเมตร</string>
+    <string name="weightHint">กิโลกรัม</string>
+</resources>

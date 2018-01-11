@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="computeButton">Compute</string>
+    <string name="weightLable">Weight</string>
+    <string name="hightLabel">Hight</string>
+    <string name="weightHint">kg.</string>
+    <string name="hightHint">cm.</string>
+</resources>
