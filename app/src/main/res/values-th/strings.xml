@@ -4,6 +4,10 @@
     <string name="computeButton">คำนวณ</string>
     <string name="weightLable">น้ำหนัก</string>
     <string name="hightLabel">ส่วนสูง</string>
-    <string name="hightHint">เซนติเมตร</string>
     <string name="weightHint">กิโลกรัม</string>
+    <string name="hightHint">เซนติเมตร</string>
+    <string name="weightUnit">กิโลกรัม</string>
+    <string name="hightUnit">เซนติเมตร</string>
+    <string name="bmiText">ดัชนีมวลกาย</string>
+    <string name="underWeight">หนักน้อยไป</string>
 </resources>

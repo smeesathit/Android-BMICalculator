@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
-public class InputActivity extends AppCompatActivity {
+public class InputActivity extends AppCompatActivity implements View.OnClickListener {
     EditText weightEditText;
     EditText hightEditText;
+    Button computeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,17 +20,33 @@ public class InputActivity extends AppCompatActivity {
 
         weightEditText = findViewById(R.id.weightEditText);
         hightEditText = findViewById(R.id.hightEditText);
-
+        computeButton = findViewById(R.id.computeButton);
+        computeButton.setOnClickListener(this);
     } // End onCreate
 
-    public void onComputeClicked(){
+    @Override
+    public void onClick(View v) {
+        Toast.makeText(getBaseContext(), "You clicked Compute button!", Toast.LENGTH_SHORT).show();
+        /*
         Intent intent = new Intent(getBaseContext(), ResultActivity.class);
 
-        startActivity(intent);
+                startActivity(intent);*/
 
-    } // End onComputeClicked
+
+    } // End onClick
 } // End InputActivity
 
+
+/*
+        Intent intent = new Intent(getBaseContext(), ResultActivity.class);
+        String weight;
+        String hight;
+        weight = weightEditText.getText().toString();
+        hight = hightEditText.getText().toString();
+        intent.putExtra("weight", weight);
+        intent.putExtra("hight", hight);
+        startActivity(intent);
+*/
 //Button computeButton;
 //computeButton = findViewById(R.id.computeButton);
 /*
