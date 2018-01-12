@@ -31,8 +31,9 @@ public class ResultActivity extends AppCompatActivity {
         bmi = w / (h * h);
 
         TextView bmiValue = findViewById(R.id.bmiValue);
+        // bmiValue.setText(String.valueOf(bmi));
         DecimalFormat df = new DecimalFormat("0.00");
-        //bmiValue.setText(df.format(bmi));
-        bmiValue.setText(String.valueOf(bmi));
+        bmiValue.setText(df.format(bmi));
+        // bmiValue.setText(String.format("%.2f", bmi));
     } // End onCreate
 } // End ResultActivity
