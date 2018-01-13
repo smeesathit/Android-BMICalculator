@@ -5,10 +5,13 @@
     <string name="hightLabel">Hight</string>
     <string name="weightHint">kg.</string>
     <string name="hightHint">cm.</string>
-    <string name="weightUnit">kg(s).</string>
-    <string name="hightUnit">cm(s).</string>
     <string name="bmiLabel">BMI =</string>
-    <string name="underWeight">Too thin</string>
     <string name="weightError">Please enter weight.</string>
     <string name="hightError">Please enter hight.</string>
+    <string name="underWeight">Weight less than normal is not good. If you are very tall, but the weight is too small. Risk of insufficient nutrition or not enough energy. The result is a weak body. Eat enough and exercise to strengthen the muscles can help to increase the BMI to normal.</string>
+    <string name="underWeightHeader">Too thin!</string>
+    <string name="normalWeightHeader">Normal weight.</string>
+    <string name="overWeightHeader">Overweight!</string>
+    <string name="normalWeight">The proper weight for Thai people is BMI between 18.5-24.9. Far from the disease caused by obesity. And the risk of disease is minimal. Try to keep BMI levels as long as possible.</string>
+    <string name="overWeight">Try to lose weight to the standard because the BMI in this period is still considered a group of people who are obese. It is not considered fat. If family history is diabetic and high blood pressure. It is also considered more risk than normal.</string>
 </resources>

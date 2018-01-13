@@ -35,5 +35,19 @@ public class ResultActivity extends AppCompatActivity {
         DecimalFormat df = new DecimalFormat("0.00");
         bmiValue.setText(df.format(bmi));
         // bmiValue.setText(String.format("%.2f", bmi));
+        TextView bmiHeader = findViewById(R.id.bmiHeader);
+        TextView bmiDescription = findViewById(R.id.bmiDescription);
+
+        if (bmi < 18.5){
+            bmiHeader.setText(R.string.underWeightHeader);
+            bmiDescription.setText(R.string.underWeight);
+        } else if (bmi >= 18.5 && bmi < 25) {
+            bmiHeader.setText(R.string.normalWeightHeader);
+            bmiDescription.setText(R.string.normalWeight);
+        } else {
+            bmiHeader.setText(R.string.overWeightHeader);
+            bmiDescription.setText(R.string.overWeight);
+        }
+
     } // End onCreate
 } // End ResultActivity
