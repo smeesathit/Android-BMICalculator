@@ -52,7 +52,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
             bmiDescription.setText(R.string.overWeight);
         }
 
-        Button backButton = findViewById(R.id.backButton);
+        Button backButton = (Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(this);
     } // End onCreate
 
