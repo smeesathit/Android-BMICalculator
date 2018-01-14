@@ -14,4 +14,5 @@
     <string name="overWeightHeader">Overweight!</string>
     <string name="normalWeight">The proper weight for Thai people is BMI between 18.5-24.9. Far from the disease caused by obesity. And the risk of disease is minimal. Try to keep BMI levels as long as possible.</string>
     <string name="overWeight">Try to lose weight to the standard because the BMI in this period is still considered a group of people who are obese. It is not considered fat. If family history is diabetic and high blood pressure. It is also considered more risk than normal.</string>
+    <string name="backButton">Back</string>
 </resources>

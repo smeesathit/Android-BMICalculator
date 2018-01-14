@@ -60,4 +60,14 @@
             android:padding="10dp"
             android:textAppearance="@android:style/TextAppearance.Material.Medium" />
     </LinearLayout>
+
+
+    <Button
+        android:id="@+id/backButton"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/backButton" />
+
 </LinearLayout>
