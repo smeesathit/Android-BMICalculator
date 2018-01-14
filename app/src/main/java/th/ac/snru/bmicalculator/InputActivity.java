@@ -18,9 +18,9 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input);
 
-        weightEditText = (EditText) findViewById(R.id.weightEditText);
-        hightEditText = (EditText) findViewById(R.id.hightEditText);
-        computeButton = (Button) findViewById(R.id.computeButton);
+        weightEditText = findViewById(R.id.weightEditText);
+        hightEditText = findViewById(R.id.hightEditText);
+        computeButton = findViewById(R.id.computeButton);
         computeButton.setOnClickListener(this);
     } // End onCreate
 

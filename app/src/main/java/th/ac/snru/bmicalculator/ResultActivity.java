@@ -33,13 +33,13 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         bmi = w / (h * h);
 
 
-        TextView bmiValue = (TextView) findViewById(R.id.bmiValue);
+        TextView bmiValue = findViewById(R.id.bmiValue);
         // bmiValue.setText(String.valueOf(bmi));
         DecimalFormat df = new DecimalFormat("0.00");
         bmiValue.setText(df.format(bmi));
         // bmiValue.setText(String.format("%.2f", bmi));
-        TextView bmiHeader = (TextView) findViewById(R.id.bmiHeader);
-        TextView bmiDescription = (TextView) findViewById(R.id.bmiDescription);
+        TextView bmiHeader = findViewById(R.id.bmiHeader);
+        TextView bmiDescription = findViewById(R.id.bmiDescription);
 
         if (bmi < 18.5){
             bmiHeader.setText(R.string.underWeightHeader);
@@ -52,7 +52,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
             bmiDescription.setText(R.string.overWeight);
         }
 
-        Button backButton = (Button) findViewById(R.id.backButton);
+        Button backButton = findViewById(R.id.backButton);
         backButton.setOnClickListener(this);
     } // End onCreate
 
