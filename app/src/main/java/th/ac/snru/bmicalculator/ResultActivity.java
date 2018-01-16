@@ -18,9 +18,9 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
 
         Intent intent = getIntent();
         String wText = intent.getStringExtra("weight");
-        String hText = intent.getStringExtra("hight");
+        String hText = intent.getStringExtra("height");
 
-       // String message = "Weight = " + wText + "  " + "Hight = "+ hText;
+       // String message = "Weight = " + wText + "  " + "height = "+ hText;
        // Toast.makeText(getBaseContext(), message, Toast.LENGTH_SHORT).show();
         double w;
         double h;

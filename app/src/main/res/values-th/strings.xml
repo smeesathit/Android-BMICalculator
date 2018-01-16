@@ -2,13 +2,9 @@
 <resources>
     <string name="app_name">แอพคำนวณ BMI</string>
     <string name="computeButton">คำนวณ</string>
-    <string name="weightLable">น้ำหนัก</string>
-    <string name="hightLabel">ส่วนสูง</string>
     <string name="weightHint">กิโลกรัม</string>
-    <string name="hightHint">เซนติเมตร</string>
     <string name="bmiLabel">ดัชนีมวลกาย =</string>
     <string name="weightError">กรุณากรอกน้ำหนัก</string>
-    <string name="hightError">กรุณากรอกส่วนสูง</string>
     <string name="underWeight">น้ำหนักน้อยกว่าปกติก็ไม่ค่อยดี หากคุณสูงมากแต่น้ำหนักน้อยเกินไป อาจเสี่ยงต่อการได้รับสารอาหารไม่เพียงพอ หรือได้รับพลังงานไม่เพียงพอ ส่งผลให้ร่างกายอ่อนเพลียง่าย การรับประทานอาหารให้เพียงพอ และการออกกำลังกายเพื่อเสริมสร้างกล้ามเนื้อสามารถช่วยเพิ่มค่า BMI ให้อยู่ในเกณฑ์ปกติได้</string>
     <string name="normalWeight">น้ำหนักที่เหมาะสมสำหรับคนไทย คือค่า BMI ระหว่าง 18.5-24.9 อยู่ในเกณฑ์ปกติ ห่างไกลโรคที่เกิดจากความอ้วน และมีความเสี่ยงต่อการเกิดโรคต่างๆน้อยที่สุด ควรพยายามรักษาระดับค่า BMI ให้อยู่ในระดับนี้ให้นานที่สุด</string>
     <string name="overWeight">พยายามอีกนิด เพื่อลดน้ำหนักให้เข้าสู่ค่ามาตรฐาน เพราะค่า BMI ในช่วงนี้ยังถือว่าเป็นกลุ่มผู้ที่มีความอ้วนอยู่บ้าง แม้จะไม่ถือว่าอ้วน แต่หากประวัติคนในครอบครัวเคยเป็นโรคเบาหวาน และความดันโลหิตสูง ก็ถือว่ายังมีความเสี่ยงมากกว่าคนปกติ</string>
@@ -16,4 +12,8 @@
     <string name="normalWeightHeader">น้ำหนักปกติ</string>
     <string name="overWeightHeader">น้ำหนักเกิน!</string>
     <string name="backButton">กลับ</string>
+    <string name="heightLabel">ส่วนสูง</string>
+    <string name="heightHint">เซนติเมตร</string>
+    <string name="heightError">กรุณากรอกส่วนสูง</string>
+    <string name="weightLabel">น้ำหนัก</string>
 </resources>

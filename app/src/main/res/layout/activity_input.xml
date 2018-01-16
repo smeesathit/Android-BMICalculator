@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="30dp"
-        android:text="@string/weightLable"
+        android:text="@string/weightLabel"
         android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <EditText
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView"
         android:layout_alignBottom="@+id/textView"
-        android:layout_alignStart="@+id/hightEditText"
+        android:layout_alignStart="@+id/heightEditText"
         android:ems="10"
         android:hint="@string/weightHint"
         android:inputType="numberDecimal" />
@@ -34,18 +34,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/weightEditText"
-        android:text="@string/hightLabel"
+        android:text="@string/heightLabel"
         android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <EditText
-        android:id="@+id/hightEditText"
+        android:id="@+id/heightEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView2"
         android:layout_marginStart="37dp"
         android:layout_toEndOf="@+id/textView"
         android:ems="10"
-        android:hint="@string/hightHint"
+        android:hint="@string/heightHint"
         android:inputType="numberDecimal" />
 
     <Button
@@ -53,8 +53,8 @@
         style="@android:style/Widget.DeviceDefault.Button.Inset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/hightEditText"
-        android:layout_below="@+id/hightEditText"
+        android:layout_alignStart="@+id/heightEditText"
+        android:layout_below="@+id/heightEditText"
         android:layout_marginStart="37dp"
         android:layout_marginTop="24dp"
         android:text="@string/computeButton" />
